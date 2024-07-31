@@ -1,7 +1,7 @@
-import { Button } from "@/components/Button";
-import { Progress } from "@/components/Progress";
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
+import { Button } from "../../components/Button";
+import { Progress } from "../../components/Progress";
+import { Text } from "../../components/Text";
+import $ from "../../globalStyle";
 import { Image } from "expo-image";
 import { FC } from "react";
 import { View } from "react-native";
@@ -17,7 +17,7 @@ export const ScanQR: FC = function () {
                 {'Place QR code inside the frame\nto scan please avoid shake to get results\nquickly'}
             </Text>
             <Image
-                source={require('@/assets/qr.svg')}
+                source={require('../../assets/qr.svg')}
                 style={{
                     width: 250,
                     aspectRatio: 1

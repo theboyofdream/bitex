@@ -1,7 +1,7 @@
-import { Button } from "@/components/Button";
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
-import { ScreenProps } from "@/navigation/StackNavigation";
+import { Button } from "../../../components/Button";
+import { Text } from "../../../components/Text";
+import $ from "../../../globalStyle";
+import { ScreenProps } from "../../../navigation/StackNavigation";
 import { Image } from "expo-image";
 import { FC, useMemo, useState } from "react";
 import { Pressable, TextInput, View } from "react-native";
@@ -34,7 +34,7 @@ export const CreatePassword: FC<ScreenProps<'create-password'>> = function ({nav
                 }}
             >
                 <Image
-                    source={require('@/assets/create-password.svg')}
+                    source={require('../../../assets/create-password.svg')}
                     style={{
                         width: 200,
                         height: 210,
@@ -74,7 +74,7 @@ export const CreatePassword: FC<ScreenProps<'create-password'>> = function ({nav
                         />
                         <Pressable onPress={() => setShowPassword(!showPassword)}>
                             <Image
-                                source={require('@/assets/icons/eye.svg')}
+                                source={require('../../../assets/icons/eye.svg')}
                                 style={{
                                     width: 30,
                                     aspectRatio: 1,
@@ -87,7 +87,7 @@ export const CreatePassword: FC<ScreenProps<'create-password'>> = function ({nav
                     <View>
                         <View style={$.row}>
                             <Image
-                                source={require('@/assets/icons/check.svg')}
+                                source={require('../../../assets/icons/check.svg')}
                                 style={{
                                     width: 24,
                                     height: 24,
@@ -98,7 +98,7 @@ export const CreatePassword: FC<ScreenProps<'create-password'>> = function ({nav
                         </View>
                         <View style={$.row}>
                             <Image
-                                source={require('@/assets/icons/check.svg')}
+                                source={require('../../../assets/icons/check.svg')}
                                 style={{
                                     width: 24,
                                     height: 24, 
@@ -109,7 +109,7 @@ export const CreatePassword: FC<ScreenProps<'create-password'>> = function ({nav
                         </View>
                         <View style={$.row}>
                             <Image
-                                source={require('@/assets/icons/check.svg')}
+                                source={require('../../../assets/icons/check.svg')}
                                 style={{
                                     width: 24,
                                     height: 24,

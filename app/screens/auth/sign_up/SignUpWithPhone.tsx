@@ -1,7 +1,7 @@
-import { Button } from "@/components/Button";
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
-import { ScreenProps } from "@/navigation/StackNavigation";
+import { Button } from "../../../components/Button";
+import { Text } from "../../../components/Text";
+import $ from "../../../globalStyle";
+import { ScreenProps } from "../../../navigation/StackNavigation";
 import { Image } from "expo-image";
 import { FC, useRef } from "react";
 import { TextInput, View } from "react-native";
@@ -20,7 +20,7 @@ export const SignUpWithPhone: FC<ScreenProps<'sign-up-with-mobile'>> = function 
                 }}
             >
                 <Image
-                    source={require('@/assets/sign-in-02.svg')}
+                    source={require('../../../assets/sign-in-02.svg')}
                     style={{
                         width: 200,
                         height: 210,
@@ -44,7 +44,7 @@ export const SignUpWithPhone: FC<ScreenProps<'sign-up-with-mobile'>> = function 
                     }]}>
                         <Text>+91</Text>
                         <Image
-                            source={require('@/assets/icons/chevron-right.svg')}
+                            source={require('../../../assets/icons/chevron-right.svg')}
                             style={{
                                 width: 10,
                                 height: 20,

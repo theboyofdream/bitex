@@ -1,5 +1,5 @@
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
+import { Text } from "../../components/Text";
+import $ from "../../globalStyle";
 import { useNavigation } from "@react-navigation/native";
 import { Image, ImageSource } from "expo-image";
 import { FC } from "react";
@@ -19,7 +19,7 @@ export const MarketTrends: FC = function () {
                 gap: 18
             }]}>
                 <Image
-                    source={require('@/assets/icons/search.svg')}
+                    source={require('../../assets/icons/search.svg')}
                     style={{
                         width: 24,
                         aspectRatio: 1
@@ -41,7 +41,7 @@ export const MarketTrends: FC = function () {
                 <View style={{ paddingHorizontal: 15, gap: 12, paddingBottom: 30 }}>
 
                     <BitcoinListItem
-                        icon={require('@/assets/icons/tron.svg')}
+                        icon={require('../../assets/icons/tron.svg')}
                         title="Tron"
                         subTitle="TRX"
                         price="$12,64.80"
@@ -49,7 +49,7 @@ export const MarketTrends: FC = function () {
                     />
 
                     <BitcoinListItem
-                        icon={require('@/assets/icons/etherium.svg')}
+                        icon={require('../../assets/icons/etherium.svg')}
                         title="Etherium"
                         subTitle="BCH"
                         price="$12,64.80"
@@ -57,7 +57,7 @@ export const MarketTrends: FC = function () {
                     />
 
                     <BitcoinListItem
-                        icon={require('@/assets/icons/binance.svg')}
+                        icon={require('../../assets/icons/binance.svg')}
                         title="Binance Coin"
                         subTitle="CAD"
                         price="$12,64.80"
@@ -65,7 +65,7 @@ export const MarketTrends: FC = function () {
                     />
 
                     <BitcoinListItem
-                        icon={require('@/assets/icons/pound.svg')}
+                        icon={require('../../assets/icons/pound.svg')}
                         title="Pound"
                         subTitle="GBP"
                         price="$12,64.80"
@@ -73,7 +73,7 @@ export const MarketTrends: FC = function () {
                     />
 
                     <BitcoinListItem
-                        icon={require('@/assets/icons/tether.svg')}
+                        icon={require('../../assets/icons/tether.svg')}
                         title="Tether"
                         subTitle="USDT"
                         price="$12,64.80"
@@ -81,7 +81,7 @@ export const MarketTrends: FC = function () {
                     />
 
                     <BitcoinListItem
-                        icon={require('@/assets/icons/bitcoin.svg')}
+                        icon={require('../../assets/icons/bitcoin.svg')}
                         title="Bitcoin Cash"
                         subTitle="BTC"
                         price="$12,64.80"
@@ -145,7 +145,7 @@ export const BitcoinListItem: FC<BitcoinListItemProps> = function ({
 
                 <View style={[$.row, $.center]}>
                     <Image
-                        source={require('@/assets/icons/chevron-right.svg')}
+                        source={require('../../assets/icons/chevron-right.svg')}
                         style={{
                             width: 6,
                             height: 12,
@@ -179,7 +179,7 @@ export const Footer: FC = function () {
         ]}>
 
             <Image
-                source={require('@/assets/icons/home.svg')}
+                source={require('../../assets/icons/home.svg')}
                 style={{
                     width: 28,
                     aspectRatio: 1
@@ -187,7 +187,7 @@ export const Footer: FC = function () {
             />
 
             <Image
-                source={require('@/assets/icons/wallet.svg')}
+                source={require('../../assets/icons/wallet.svg')}
                 style={{
                     width: 28,
                     aspectRatio: 1
@@ -195,7 +195,7 @@ export const Footer: FC = function () {
             />
 
             <Image
-                source={require('@/assets/icons/plus.svg')}
+                source={require('../../assets/icons/plus.svg')}
                 style={{
                     width: 60,
                     aspectRatio: 0.9
@@ -203,7 +203,7 @@ export const Footer: FC = function () {
             />
 
             <Image
-                source={require('@/assets/icons/chat.svg')}
+                source={require('../../assets/icons/chat.svg')}
                 style={{
                     width: 28,
                     aspectRatio: 1
@@ -211,7 +211,7 @@ export const Footer: FC = function () {
             />
 
             <Image
-                source={require('@/assets/icons/settings.svg')}
+                source={require('../../assets/icons/settings.svg')}
                 style={{
                     width: 28,
                     aspectRatio: 1

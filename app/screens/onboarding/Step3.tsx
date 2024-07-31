@@ -1,7 +1,7 @@
-import { Button } from "@/components/Button";
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
-import { ScreenProps } from "@/navigation/StackNavigation";
+import { Button } from "../../components/Button";
+import { Text } from "../../components/Text";
+import $ from "../../globalStyle";
+import { ScreenProps } from "../../navigation/StackNavigation";
 import { Image } from "expo-image";
 import { FC } from "react";
 import { View } from "react-native";
@@ -24,7 +24,7 @@ export const OnboardingStep3: FC<ScreenProps<'onboarding-step-3'>> = function ({
                 ]}
             >
                 <Image
-                    source={require('@/assets/welcome-to-cryptocurrency-02.svg')}
+                    source={require('../../assets/welcome-to-cryptocurrency-02.svg')}
                     style={{
                         width: 250,
                         aspectRatio: 1

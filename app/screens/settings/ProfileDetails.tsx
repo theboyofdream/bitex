@@ -1,6 +1,6 @@
-import { Button } from "@/components/Button";
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
+import { Button } from "../../components/Button";
+import { Text } from "../../components/Text";
+import $ from "../../globalStyle";
 import { Image } from "expo-image";
 import { FC, useState } from "react";
 import { KeyboardTypeOptions, Pressable, ScrollView, TextInput, View } from "react-native";
@@ -9,7 +9,7 @@ export const ProfileDetails: FC = function () {
     return (
         <View style={$.screen}>
             <Image
-                source={require('@/assets/placeholder.svg')}
+                source={require('../../assets/placeholder.svg')}
                 style={{
                     width: 150,
                     aspectRatio: 1,
@@ -136,14 +136,14 @@ const Input: FC<InputProps> = function ({
                 {
                     !edit
                         ? <Image
-                            source={require('@/assets/icons/pencil.svg')}
+                            source={require('../../assets/icons/pencil.svg')}
                             style={{
                                 width: 18,
                                 aspectRatio: 1,
                             }}
                         /> :
                         <Image
-                            source={require('@/assets/icons/check.svg')}
+                            source={require('../../assets/icons/check.svg')}
                             style={{
                                 width: 28,
                                 aspectRatio: 1,

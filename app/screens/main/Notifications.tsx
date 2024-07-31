@@ -1,5 +1,5 @@
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
+import { Text } from "../../components/Text";
+import $ from "../../globalStyle";
 import { Image, ImageSource } from "expo-image";
 import { FC } from "react";
 import { View } from "react-native";
@@ -9,33 +9,33 @@ export const Notification: FC = function () {
         <View style={$.screen}>
 
             <List
-                icon={require('@/assets/icons/eth-received.svg')}
+                icon={require('../../assets/icons/eth-received.svg')}
                 title="ETH received"
                 text="0.08 ETH Received"
                 dayago={2}
             />
 
             <List
-                icon={require('@/assets/icons/payment-pink.svg')}
+                icon={require('../../assets/icons/payment-pink.svg')}
                 title="Payment"
                 text="Thank you! Your transaction is completed."
             />
 
             <List
-                icon={require('@/assets/icons/promotion.svg')}
+                icon={require('../../assets/icons/promotion.svg')}
                 title="Promotion"
                 text="Invite friends - Get 1 coupons each!"
             />
 
             <List
-                icon={require('@/assets/icons/new-coin.svg')}
+                icon={require('../../assets/icons/new-coin.svg')}
                 title="New Coin"
                 text="New bid 0.2 ETH"
                 dayago={5}
             />
 
             <List
-                icon={require('@/assets/icons/payment.svg')}
+                icon={require('../../assets/icons/payment.svg')}
                 title="Payment"
                 text="Thank you! Your transaction is completed."
             />

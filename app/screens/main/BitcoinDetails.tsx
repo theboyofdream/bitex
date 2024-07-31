@@ -1,6 +1,6 @@
-import { Button } from "@/components/Button";
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
+import { Button } from "../../components/Button";
+import { Text } from "../../components/Text";
+import $ from "../../globalStyle";
 import { Image } from "expo-image";
 import { FC } from "react";
 import { ScrollView, View } from "react-native";
@@ -23,7 +23,7 @@ export const BitcoinDetails: FC = function () {
                         }}
                     >
                         <Image
-                            source={require('@/assets/icons/bitcoin.svg')}
+                            source={require('../../assets/icons/bitcoin.svg')}
                             style={{
                                 width: 60,
                                 aspectRatio: 1
@@ -49,7 +49,7 @@ export const BitcoinDetails: FC = function () {
                         <View style={[$.row, { gap: 0 }]}>
                             <Button gradient='blue' style={{ width: 'auto', paddingHorizontal: 12 }}>
                                 <Image
-                                    source={require('@/assets/icons/candle.svg')}
+                                    source={require('../../assets/icons/candle.svg')}
                                     style={{
                                         width: 9,
                                         height: 14,
@@ -59,7 +59,7 @@ export const BitcoinDetails: FC = function () {
                             </Button>
                             <Button gradient='orange' style={{ width: 'auto', paddingHorizontal: 12 }}>
                                 <Image
-                                    source={require('@/assets/icons/maximize.svg')}
+                                    source={require('../../assets/icons/maximize.svg')}
                                     style={{
                                         width: 14,
                                         aspectRatio: 1
@@ -70,7 +70,7 @@ export const BitcoinDetails: FC = function () {
                     </View>
 
                     <Image
-                        source={require('@/assets/candlesticks.svg')}
+                        source={require('../../assets/candlesticks.svg')}
                         style={{
                             width: '100%',
                             aspectRatio: 1.2

@@ -1,7 +1,7 @@
-import { Button } from "@/components/Button";
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
-import { ScreenProps } from "@/navigation/StackNavigation";
+import { Button } from "../../components/Button";
+import { Text } from "../../components/Text";
+import $ from "../../globalStyle";
+import { ScreenProps } from "../../navigation/StackNavigation";
 import { Image } from "expo-image";
 import { FC, useState } from "react";
 import { Pressable, TextInput, View } from "react-native";
@@ -22,7 +22,7 @@ export const SignIn: FC<ScreenProps<'sign-in'>> = function ({ navigation }) {
                 }}
             >
                 <Image
-                    source={require('@/assets/sign-in.svg')}
+                    source={require('../../assets/sign-in.svg')}
                     style={{
                         width: 200,
                         height: 200,
@@ -45,7 +45,7 @@ export const SignIn: FC<ScreenProps<'sign-in'>> = function ({ navigation }) {
                         gap: 18
                     }]}>
                         <Image
-                            source={require('@/assets/icons/mail.svg')}
+                            source={require('../../assets/icons/mail.svg')}
                             style={{
                                 width: 18,
                                 aspectRatio: 1
@@ -70,7 +70,7 @@ export const SignIn: FC<ScreenProps<'sign-in'>> = function ({ navigation }) {
                         gap: 18
                     }]}>
                         <Image
-                            source={require('@/assets/icons/lock.svg')}
+                            source={require('../../assets/icons/lock.svg')}
                             style={{
                                 width: 16,
                                 aspectRatio: 0.80
@@ -99,7 +99,7 @@ export const SignIn: FC<ScreenProps<'sign-in'>> = function ({ navigation }) {
                             {
                                 checked ?
                                     <Image
-                                        source={require('@/assets/icons/checkbox.svg')}
+                                        source={require('../../assets/icons/checkbox.svg')}
                                         style={{
                                             width: 16,
                                             aspectRatio: 1
@@ -107,7 +107,7 @@ export const SignIn: FC<ScreenProps<'sign-in'>> = function ({ navigation }) {
                                     />
                                     :
                                     <Image
-                                        source={require('@/assets/icons/checkbox-unchecked.svg')}
+                                        source={require('../../assets/icons/checkbox-unchecked.svg')}
                                         style={{
                                             width: 16,
                                             aspectRatio: 1

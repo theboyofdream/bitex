@@ -1,7 +1,7 @@
-import { GradientView } from "@/components/GradientView";
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
-import { ScreenProps } from "@/navigation/StackNavigation";
+import { GradientView } from "../../components/GradientView";
+import { Text } from "../../components/Text";
+import $ from "../../globalStyle";
+import { ScreenProps } from "../../navigation/StackNavigation";
 import { Image, ImageSource } from "expo-image";
 import { FC, useState } from "react";
 import { Pressable, ScrollView, Switch, View } from "react-native";
@@ -24,7 +24,7 @@ export const Settings: FC<ScreenProps<'settings'>> = function ({ navigation }) {
                     }
                 ]}>
                 <Image
-                    source={require('@/assets/placeholder.svg')}
+                    source={require('../../assets/placeholder.svg')}
                     style={{
                         width: 60,
                         height: 60
@@ -58,31 +58,31 @@ export const Settings: FC<ScreenProps<'settings'>> = function ({ navigation }) {
                     </GradientView>
 
                     <List
-                        icon={require('@/assets/icons/lock.svg')}
+                        icon={require('../../assets/icons/lock.svg')}
                         iconAspectRatio={0.9}
                         text="Change Password"
                     />
 
                     <List
-                        icon={require('@/assets/icons/bell-vibrate.svg')}
+                        icon={require('../../assets/icons/bell-vibrate.svg')}
                         iconAspectRatio={0.9}
                         text="Order Management"
                     />
 
                     <List
-                        icon={require('@/assets/icons/gear.svg')}
+                        icon={require('../../assets/icons/gear.svg')}
                         iconAspectRatio={1}
                         text="Document Management"
                     />
 
                     <List
-                        icon={require('@/assets/icons/card.svg')}
+                        icon={require('../../assets/icons/card.svg')}
                         iconAspectRatio={1.3}
                         text="Payments"
                     />
 
                     <List
-                        icon={require('@/assets/icons/exit.svg')}
+                        icon={require('../../assets/icons/exit.svg')}
                         iconAspectRatio={1.3}
                         text="Sign Out"
                         onpress={()=>navigation.navigate('sign-in')}
@@ -98,42 +98,42 @@ export const Settings: FC<ScreenProps<'settings'>> = function ({ navigation }) {
                     </View>
 
                     <List
-                        icon={require('@/assets/icons/newsletter.svg')}
+                        icon={require('../../assets/icons/newsletter.svg')}
                         iconAspectRatio={1.3}
                         text="Newsletter"
                         hasSwitch
                     />
 
                     <List
-                        icon={require('@/assets/icons/mail.svg')}
+                        icon={require('../../assets/icons/mail.svg')}
                         iconAspectRatio={1.3}
                         text="Text Message"
                         hasSwitch
                     />
 
                     <List
-                        icon={require('@/assets/icons/telephone.svg')}
+                        icon={require('../../assets/icons/telephone.svg')}
                         iconAspectRatio={1}
                         text="Phone Call"
                         hasSwitch
                     />
 
                     <List
-                        icon={require('@/assets/icons/currency.svg')}
+                        icon={require('../../assets/icons/currency.svg')}
                         iconAspectRatio={1.1}
                         text="Currency"
                         endText="$USD"
                     />
 
                     <List
-                        icon={require('@/assets/icons/language.svg')}
+                        icon={require('../../assets/icons/language.svg')}
                         iconAspectRatio={1.1}
                         text="Language"
                         endText="English"
                     />
 
                     <List
-                        icon={require('@/assets/icons/link.svg')}
+                        icon={require('../../assets/icons/link.svg')}
                         iconAspectRatio={1.1}
                         text="Linked Accounts"
                         endText="Facebook, Go..."
@@ -149,7 +149,7 @@ export const Settings: FC<ScreenProps<'settings'>> = function ({ navigation }) {
 function ChevronRightIcon() {
     return (
         <Image
-            source={require('@/assets/icons/chevron-right.svg')}
+            source={require('../../assets/icons/chevron-right.svg')}
             style={{
                 width: 10,
                 height: 20

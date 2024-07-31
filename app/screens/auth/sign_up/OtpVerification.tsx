@@ -1,7 +1,7 @@
-import { Button } from "@/components/Button";
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
-import { ScreenProps } from "@/navigation/StackNavigation";
+import { Button } from "../../../components/Button";
+import { Text } from "../../../components/Text";
+import $ from "../../../globalStyle";
+import { ScreenProps } from "../../../navigation/StackNavigation";
 import { OtpInput } from "@theboyofdream/rn-otp-input";
 import { Image } from "expo-image";
 import { FC, useEffect, useState } from "react";
@@ -28,7 +28,7 @@ export const OtpVerification: FC<ScreenProps<'verify-otp'>> = function ({ naviga
                 }}
             >
                 <Image
-                    source={require('@/assets/otp-verification.svg')}
+                    source={require('../../../assets/otp-verification.svg')}
                     style={{
                         width: 200,
                         height: 210,

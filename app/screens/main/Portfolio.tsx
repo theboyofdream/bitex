@@ -1,6 +1,6 @@
-import { Button } from "@/components/Button";
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
+import { Button } from "../../components/Button";
+import { Text } from "../../components/Text";
+import $ from "../../globalStyle";
 import { useNavigation } from "@react-navigation/native";
 import { Image, ImageSource } from "expo-image";
 import { FC } from "react";
@@ -23,7 +23,7 @@ export const Portfolio: FC = function () {
                 <Button gradient='violet' badge>
                     <Text>BTC/USD</Text>
                     <Image
-                        source={require('@/assets/icons/chevron-right.svg')}
+                        source={require('../../assets/icons/chevron-right.svg')}
                         style={{
                             width: 7,
                             height: 15,
@@ -61,7 +61,7 @@ export const Portfolio: FC = function () {
                 <View style={{ paddingHorizontal: 15, gap: 12, paddingBottom: 30 }}>
 
                     <BitcoinListItem
-                        icon={require('@/assets/icons/ripple.svg')}
+                        icon={require('../../assets/icons/ripple.svg')}
                         title="Ripple"
                         subTitle="2500 XRP ($230.44)"
                         price="$12,64.80"
@@ -69,7 +69,7 @@ export const Portfolio: FC = function () {
                     />
 
                     <BitcoinListItem
-                        icon={require('@/assets/icons/etherium.svg')}
+                        icon={require('../../assets/icons/etherium.svg')}
                         title="Etherium"
                         subTitle="24 ETH ($190.19)"
                         price="$12,64.80"
@@ -77,7 +77,7 @@ export const Portfolio: FC = function () {
                     />
 
                     <BitcoinListItem
-                        icon={require('@/assets/icons/binance.svg')}
+                        icon={require('../../assets/icons/binance.svg')}
                         title="Binance Coin"
                         subTitle="2 BCN ($901.56)"
                         price="$12,64.80"
@@ -85,7 +85,7 @@ export const Portfolio: FC = function () {
                     />
 
                     <BitcoinListItem
-                        icon={require('@/assets/icons/pound.svg')}
+                        icon={require('../../assets/icons/pound.svg')}
                         title="Pound"
                         subTitle="44.000 GBP ($230.44)"
                         price="$12,64.80"
@@ -93,7 +93,7 @@ export const Portfolio: FC = function () {
                     />
 
                     <BitcoinListItem
-                        icon={require('@/assets/icons/tether.svg')}
+                        icon={require('../../assets/icons/tether.svg')}
                         title="Tether"
                         subTitle="2 USDT ($901.56)"
                         price="$12,64.80"
@@ -101,7 +101,7 @@ export const Portfolio: FC = function () {
                     />
 
                     <BitcoinListItem
-                        icon={require('@/assets/icons/bitcoin.svg')}
+                        icon={require('../../assets/icons/bitcoin.svg')}
                         title="Bitcoin Cash"
                         subTitle="0.100000 BTC ($840.64)"
                         price="$12,64.80"

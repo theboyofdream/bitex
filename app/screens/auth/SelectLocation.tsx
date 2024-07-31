@@ -1,7 +1,7 @@
-import { Button } from "@/components/Button";
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
-import { ScreenProps } from "@/navigation/StackNavigation";
+import { Button } from "../../components/Button";
+import { Text } from "../../components/Text";
+import $ from "../../globalStyle";
+import { ScreenProps } from "../../navigation/StackNavigation";
 import { Image } from "expo-image";
 import { FC } from "react";
 import { TextInput, View } from "react-native";
@@ -20,7 +20,7 @@ export const SelectLocation: FC<ScreenProps<'select-location'>> = function ({nav
                 }}
             >
                 <Image
-                    source={require('@/assets/select-location.svg')}
+                    source={require('../../assets/select-location.svg')}
                     style={{
                         width: 200,
                         height: 210,
@@ -52,7 +52,7 @@ export const SelectLocation: FC<ScreenProps<'select-location'>> = function ({nav
                             placeholderTextColor={"#ffffff80"}
                         />
                         <Image
-                            source={require('@/assets/icons/down-arrow.svg')}
+                            source={require('../../assets/icons/down-arrow.svg')}
                             style={{
                                 width: 21,
                                 aspectRatio: 1.9,
@@ -78,7 +78,7 @@ export const SelectLocation: FC<ScreenProps<'select-location'>> = function ({nav
                             placeholderTextColor={"#ffffff80"}
                         />
                         <Image
-                            source={require('@/assets/icons/down-arrow.svg')}
+                            source={require('../../assets/icons/down-arrow.svg')}
                             style={{
                                 width: 21,
                                 aspectRatio: 1.9,

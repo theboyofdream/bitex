@@ -1,7 +1,7 @@
-import { Button } from "@/components/Button";
-import { Text } from "@/components/Text";
-import $ from "@/globalStyle";
-import { ScreenProps } from "@/navigation/StackNavigation";
+import { Button } from "../../components/Button";
+import { Text } from "../../components/Text";
+import $ from "../../globalStyle";
+import { ScreenProps } from "../../navigation/StackNavigation";
 import { Image, ImageSource } from "expo-image";
 import { LinearGradient } from "expo-linear-gradient";
 import { FC } from "react";
@@ -47,7 +47,7 @@ export const Home: FC<ScreenProps<'home'>> = function ({ navigation }) {
                                     <View style={$.row}>
                                         <Text color="#fff">USD</Text>
                                         <Image
-                                            source={require('@/assets/icons/chevron-right.svg')}
+                                            source={require('../../assets/icons/chevron-right.svg')}
                                             style={{
                                                 width: 7,
                                                 height: 15,
@@ -69,7 +69,7 @@ export const Home: FC<ScreenProps<'home'>> = function ({ navigation }) {
 
                                         <View style={$.row}>
                                             <Image
-                                                source={require('@/assets/icons/down-arrow.svg')}
+                                                source={require('../../assets/icons/down-arrow.svg')}
                                                 style={{
                                                     width: 20,
                                                     height: 10,
@@ -99,7 +99,7 @@ export const Home: FC<ScreenProps<'home'>> = function ({ navigation }) {
                                     <View style={$.row}>
                                         <Text color="#fff">USD</Text>
                                         <Image
-                                            source={require('@/assets/icons/chevron-right.svg')}
+                                            source={require('../../assets/icons/chevron-right.svg')}
                                             style={{
                                                 width: 7,
                                                 height: 15,
@@ -121,7 +121,7 @@ export const Home: FC<ScreenProps<'home'>> = function ({ navigation }) {
 
                                         <View style={$.row}>
                                             <Image
-                                                source={require('@/assets/icons/down-arrow.svg')}
+                                                source={require('../../assets/icons/down-arrow.svg')}
                                                 style={{
                                                     width: 20,
                                                     height: 10,
@@ -161,7 +161,7 @@ export const Home: FC<ScreenProps<'home'>> = function ({ navigation }) {
                                 >
                                     <View style={$.row}>
                                         <Image
-                                            source={require('@/assets/icons/etherium.svg')}
+                                            source={require('../../assets/icons/etherium.svg')}
                                             style={{
                                                 width: 40,
                                                 aspectRatio: 1
@@ -188,7 +188,7 @@ export const Home: FC<ScreenProps<'home'>> = function ({ navigation }) {
                                 >
                                     <View style={$.row}>
                                         <Image
-                                            source={require('@/assets/icons/bitcoin.svg')}
+                                            source={require('../../assets/icons/bitcoin.svg')}
                                             style={{
                                                 width: 40,
                                                 aspectRatio: 1
@@ -210,19 +210,19 @@ export const Home: FC<ScreenProps<'home'>> = function ({ navigation }) {
 
                         <View style={[$.row, { justifyContent: 'space-around', marginVertical: 15 }]}>
                             <IconButton
-                                icon={require('@/assets/icons/send.svg')}
+                                icon={require('../../assets/icons/send.svg')}
                                 title="Send"
                             />
                             <IconButton
-                                icon={require('@/assets/icons/receive.svg')}
+                                icon={require('../../assets/icons/receive.svg')}
                                 title="Receive"
                             />
                             <IconButton
-                                icon={require('@/assets/icons/buy.svg')}
+                                icon={require('../../assets/icons/buy.svg')}
                                 title="Buy"
                             />
                             <IconButton
-                                icon={require('@/assets/icons/swap.svg')}
+                                icon={require('../../assets/icons/swap.svg')}
                                 title="Swap"
                             />
                         </View>
@@ -238,7 +238,7 @@ export const Home: FC<ScreenProps<'home'>> = function ({ navigation }) {
                         </View>
 
                         <BitcoinListItem
-                            icon={require('@/assets/icons/achain.svg')}
+                            icon={require('../../assets/icons/achain.svg')}
                             title="Achain"
                             subTitle="ACH"
                             price="$15,813.20"

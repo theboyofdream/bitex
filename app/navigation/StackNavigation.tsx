@@ -1,22 +1,22 @@
-import { Text } from "@/components/Text";
-import { ForgotPassword } from "@/screens/auth/ForgotPassword";
-import { SelectLocation } from "@/screens/auth/SelectLocation";
-import { CreatePassword } from "@/screens/auth/sign_up/CreatePassword";
-import { OtpVerification } from "@/screens/auth/sign_up/OtpVerification";
-import { SignUpWithPhone } from "@/screens/auth/sign_up/SignUpWithPhone";
-import { SignIn } from "@/screens/auth/SignIn";
-import { BitcoinDetails } from "@/screens/main/BitcoinDetails";
-import { Home } from "@/screens/main/Home";
-import { MarketTrends } from "@/screens/main/MarketTrends";
-import { Notification } from "@/screens/main/Notifications";
-import { Portfolio } from "@/screens/main/Portfolio";
-import { OnboardingStep1 } from "@/screens/onboarding/Step1";
-import { OnboardingStep2 } from "@/screens/onboarding/Step2";
-import { OnboardingStep3 } from "@/screens/onboarding/Step3";
-import { ProfileDetails } from "@/screens/settings/ProfileDetails";
-import { ScanQR } from "@/screens/settings/ScanQR";
-import { Settings } from "@/screens/settings/Settings";
-import { SplashScreen } from "@/screens/SplashScreen";
+import { Text } from "../components/Text";
+import { ForgotPassword } from "../screens/auth/ForgotPassword";
+import { SelectLocation } from "../screens/auth/SelectLocation";
+import { CreatePassword } from "../screens/auth/sign_up/CreatePassword";
+import { OtpVerification } from "../screens/auth/sign_up/OtpVerification";
+import { SignUpWithPhone } from "../screens/auth/sign_up/SignUpWithPhone";
+import { SignIn } from "../screens/auth/SignIn";
+import { BitcoinDetails } from "../screens/main/BitcoinDetails";
+import { Home } from "../screens/main/Home";
+import { MarketTrends } from "../screens/main/MarketTrends";
+import { Notification } from "../screens/main/Notifications";
+import { Portfolio } from "../screens/main/Portfolio";
+import { OnboardingStep1 } from "../screens/onboarding/Step1";
+import { OnboardingStep2 } from "../screens/onboarding/Step2";
+import { OnboardingStep3 } from "../screens/onboarding/Step3";
+import { ProfileDetails } from "../screens/settings/ProfileDetails";
+import { ScanQR } from "../screens/settings/ScanQR";
+import { Settings } from "../screens/settings/Settings";
+import { SplashScreen } from "../screens/SplashScreen";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Image } from "expo-image";
 import { FC } from "react";
@@ -100,7 +100,7 @@ export const StackNavigation: FC = function () {
                                     }}
                                 >
                                     <Image
-                                        source={require('@/assets/icons/menu.svg')}
+                                        source={require('../assets/icons/menu.svg')}
                                         style={{
                                             width: 21,
                                             aspectRatio: 1.25,
@@ -124,7 +124,7 @@ export const StackNavigation: FC = function () {
                                     }}
                                 >
                                     <Image
-                                        source={require('@/assets/icons/back.svg')}
+                                        source={require('../assets/icons/back.svg')}
                                         style={{
                                             width: 18,
                                             aspectRatio: 1.25
@@ -153,7 +153,7 @@ export const StackNavigation: FC = function () {
                                     onPress={()=>navigation.navigate('scan-qr')}
                                 >
                                     <Image
-                                        source={require('@/assets/icons/search.svg')}
+                                        source={require('../assets/icons/search.svg')}
                                         style={{
                                             width: 24,
                                             aspectRatio: 1.25,
@@ -173,7 +173,7 @@ export const StackNavigation: FC = function () {
                                     }}
                                 >
                                     <Image
-                                        source={require('@/assets/icons/favorite.svg')}
+                                        source={require('../assets/icons/favorite.svg')}
                                         style={{
                                             width: 24,
                                             aspectRatio: 1,
@@ -193,7 +193,7 @@ export const StackNavigation: FC = function () {
                                     onPress={()=>navigation.navigate('notifications')}
                                 >
                                     <Image
-                                        source={require('@/assets/icons/bell-badge.svg')}
+                                        source={require('../assets/icons/bell-badge.svg')}
                                         style={{
                                             width: 24,
                                             aspectRatio: 0.9,
@@ -213,7 +213,7 @@ export const StackNavigation: FC = function () {
                                     }}
                                 >
                                     <Image
-                                        source={require('@/assets/icons/dot-menus.svg')}
+                                        source={require('../assets/icons/dot-menus.svg')}
                                         style={{
                                             width: 3,
                                             height: 18,
