@@ -1,4 +1,4 @@
-import { StackNavigation } from "@/navigation/StackNavigation";
+import { StackNavigation } from "./app/navigation/StackNavigation";
 import { NavigationContainer } from "@react-navigation/native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
