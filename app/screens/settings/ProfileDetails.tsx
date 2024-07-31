@@ -2,7 +2,7 @@ import { Button } from "@/components/Button";
 import { Text } from "@/components/Text";
 import $ from "@/globalStyle";
 import { Image } from "expo-image";
-import { FC, useEffect, useRef, useState } from "react";
+import { FC, useState } from "react";
 import { KeyboardTypeOptions, Pressable, ScrollView, TextInput, View } from "react-native";
 
 export const ProfileDetails: FC = function () {

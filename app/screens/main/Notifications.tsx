@@ -1,6 +1,5 @@
 import { Text } from "@/components/Text";
 import $ from "@/globalStyle";
-import { ScreenProps } from "@/navigation/StackNavigation";
 import { Image, ImageSource } from "expo-image";
 import { FC } from "react";
 import { View } from "react-native";

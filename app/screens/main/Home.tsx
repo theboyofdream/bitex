@@ -1,12 +1,12 @@
+import { Button } from "@/components/Button";
 import { Text } from "@/components/Text";
 import $ from "@/globalStyle";
+import { ScreenProps } from "@/navigation/StackNavigation";
+import { Image, ImageSource } from "expo-image";
+import { LinearGradient } from "expo-linear-gradient";
 import { FC } from "react";
 import { Dimensions, Pressable, ScrollView, View } from "react-native";
 import { BitcoinListItem, Footer } from "./MarketTrends";
-import { Image, ImageSource } from "expo-image";
-import { Button } from "@/components/Button";
-import { LinearGradient } from "expo-linear-gradient";
-import { ScreenProps } from "@/navigation/StackNavigation";
 
 
 

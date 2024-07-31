@@ -2,10 +2,9 @@ import { Button } from "@/components/Button";
 import { Text } from "@/components/Text";
 import $ from "@/globalStyle";
 import { ScreenProps } from "@/navigation/StackNavigation";
-import { OtpInput } from "@theboyofdream/rn-otp-input";
 import { Image } from "expo-image";
-import { FC, useEffect, useMemo, useState } from "react";
-import { Pressable, TextInput, View } from "react-native";
+import { FC } from "react";
+import { TextInput, View } from "react-native";
 
 
 

@@ -1,4 +1,3 @@
-import { Button } from "@/components/Button";
 import { GradientView } from "@/components/GradientView";
 import { Text } from "@/components/Text";
 import $ from "@/globalStyle";

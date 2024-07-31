@@ -1,12 +1,10 @@
-import { Button } from "@/components/Button";
 import { Progress } from "@/components/Progress";
 import { Text } from "@/components/Text";
 import $ from "@/globalStyle";
 import { ScreenProps } from "@/navigation/StackNavigation";
-import { useNavigation } from "@react-navigation/native";
 import { Image } from "expo-image";
-import { FC, useEffect, useRef } from "react";
-import { Animated, StyleSheet, View } from "react-native";
+import { FC } from "react";
+import { View } from "react-native";
 
 
 export const SplashScreen: FC<ScreenProps<'splash-screen'>> = function ({ navigation }) {

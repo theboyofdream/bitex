@@ -3,8 +3,8 @@ import { Text } from "@/components/Text";
 import $ from "@/globalStyle";
 import { ScreenProps } from "@/navigation/StackNavigation";
 import { Image } from "expo-image";
-import { FC, useRef, useState } from "react";
-import { Pressable, TextInput, View } from "react-native";
+import { FC, useRef } from "react";
+import { TextInput, View } from "react-native";
 
 
 
