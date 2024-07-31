@@ -121,7 +121,7 @@ export const CreatePassword: FC<ScreenProps<'create-password'>> = function ({nav
                         </View>
                     </View>
 
-                    <Button gradient='teal' onPress={()=>navigation.navigate('forgot-password')}>
+                    <Button gradient='teal' onPress={()=>navigation.navigate('select-location')}>
                         <Text>Continue</Text>
                     </Button>
 

@@ -86,6 +86,7 @@ export const Settings: FC<ScreenProps<'settings'>> = function ({ navigation }) {
                         icon={require('@/assets/icons/exit.svg')}
                         iconAspectRatio={1.3}
                         text="Sign Out"
+                        onpress={()=>navigation.navigate('sign-in')}
                     />
 
                     <View
@@ -164,17 +165,21 @@ type ListProps = {
     text: string
     endText?: string
     hasSwitch?: boolean
+    onpress?: ()=>void
 }
 const List: FC<ListProps> = function ({
     icon,
     iconAspectRatio,
     text,
     endText,
-    hasSwitch = false
+    hasSwitch = false,
+    onpress
 }) {
     const [on, setOn] = useState(false)
     return (
-        <View style={[
+        <Pressable
+        onPress={onpress}
+        style={[
             $.row,
             { padding: 12 }
         ]}>
@@ -208,7 +213,7 @@ const List: FC<ListProps> = function ({
                         <ChevronRightIcon />
                     </>
             }
-        </View>
+        </Pressable>
     )
 }
 

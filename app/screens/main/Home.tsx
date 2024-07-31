@@ -151,7 +151,8 @@ export const Home: FC<ScreenProps<'home'>> = function ({ navigation }) {
                         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
                             <View style={$.row}>
 
-                                <View
+                                <Pressable
+                                    onPress={() => navigation.navigate('bitcoin-details')}
                                     style={{
                                         padding: 30,
                                         borderRadius: 15,
@@ -175,9 +176,10 @@ export const Home: FC<ScreenProps<'home'>> = function ({ navigation }) {
                                     <Text size='xl' bold>$61,671.50</Text>
                                     <Text color='muted'>ETH</Text>
 
-                                </View>
+                                </Pressable>
 
-                                <View
+                                <Pressable
+                                    onPress={() => navigation.navigate('bitcoin-details')}
                                     style={{
                                         padding: 30,
                                         borderRadius: 15,
@@ -201,7 +203,7 @@ export const Home: FC<ScreenProps<'home'>> = function ({ navigation }) {
                                     <Text size='xl' bold>$61,671.50</Text>
                                     <Text color='muted'>BTC</Text>
 
-                                </View>
+                                </Pressable>
 
                             </View>
                         </ScrollView>
@@ -230,8 +232,8 @@ export const Home: FC<ScreenProps<'home'>> = function ({ navigation }) {
                     <View style={$.col}>
                         <View style={[$.row, { justifyContent: 'space-between' }]}>
                             <Text size='mlg'>Market</Text>
-                            <Pressable onPress={()=>navigation.navigate('market-trends')}>
-                            <Text color='muted'>View All+</Text>
+                            <Pressable onPress={() => navigation.navigate('market-trends')}>
+                                <Text color='muted'>View All+</Text>
                             </Pressable>
                         </View>
 

@@ -109,7 +109,7 @@ const OTPCountDown: FC = function () {
             }}>
                 <Text>I didn't receive code.</Text>
                 <Pressable onPress={reset}>
-                    <Text color='primary'>Resend code</Text>
+                    <Text color='#FE8270'>Resend code</Text>
                 </Pressable>
             </View>
 

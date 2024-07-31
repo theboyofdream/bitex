@@ -69,7 +69,7 @@ export const ForgotPassword: FC<ScreenProps<'forgot-password'>> = function ({nav
 
                    <Text center color="#FE8270">Email sent to ex*****@gmail.com</Text>
 
-                    <Button gradient='teal' onPress={()=>navigation.navigate('select-location')}>
+                    <Button gradient='teal' onPress={()=>navigation.navigate('sign-in')}>
                         <Text>Send</Text>
                     </Button>
 

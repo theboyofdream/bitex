@@ -1,9 +1,10 @@
 import { Button } from "@/components/Button";
 import { Text } from "@/components/Text";
 import $ from "@/globalStyle";
+import { useNavigation } from "@react-navigation/native";
 import { Image, ImageSource } from "expo-image";
 import { FC } from "react";
-import { ScrollView, View } from "react-native";
+import { Pressable, ScrollView, View } from "react-native";
 
 
 
@@ -130,15 +131,17 @@ const BitcoinListItem: FC<BitcoinListItemProps> = function ({
     price,
     percentage
 }) {
+    const { navigate } = useNavigation()
     const percentageColor = percentage < 0 ? '#FF73AA' : 'primary'
     return (
-        <View
+        <Pressable
+            onPress={() => navigate('bitcoin-details')}
             style={{
                 backgroundColor: '#1E2230',
                 padding: 15,
                 flexDirection: 'row',
                 gap: 9,
-                borderRadius:15,
+                borderRadius: 15,
             }}
         >
             <Image
@@ -159,6 +162,6 @@ const BitcoinListItem: FC<BitcoinListItemProps> = function ({
                 <Text color={percentageColor}>{percentage > 0 ? '+' : ''}{percentage}%</Text>
             </View>
 
-        </View>
+        </Pressable>
     )
 }

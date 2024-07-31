@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "blank",
-    "slug": "blank",
+    "name": "Bitex",
+    "slug": "bitex",
     "version": "1.0.0",
     "platforms": [
       "ios",
@@ -10,6 +10,18 @@
     ],
     "experiments": {
       "tsconfigPaths": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "37080070-dc74-4aa1-ba9e-e67ed3a1af4f"
+      }
+    },
+    "android": {
+      "package": "dev.theboyofdream.interview.bitex"
+    },
+    "ios": {
+      "bundleIdentifier": "dev.theboyofdream.interview.bitex"
+    },
+    "owner": "theboyofdream"
   }
 }
