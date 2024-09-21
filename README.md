@@ -1,4 +1,4 @@
-# BitEx (Bitcoin Exchange)
+# BitEx (Bitcoin Exchange) APP UI
 
 This assignment received during previous interview as `pre-interview assignment`.
 
