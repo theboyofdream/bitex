@@ -1,7 +1,7 @@
 import { PixelRatio, StyleSheet } from "react-native";
 
 const fontScale = PixelRatio.getFontScale();
-const fontSize = (size:number) => size / fontScale;
+const fontSize = (size: number) => size / fontScale;
 
 export const $ = StyleSheet.create({
     screen: {
@@ -9,13 +9,13 @@ export const $ = StyleSheet.create({
         gap: 18,
         backgroundColor: '#191C26'
     },
-    col:{
-        gap:9,
+    col: {
+        gap: 9,
     },
-    row:{
-        flexDirection:'row',
-        alignItems:'center',
-        gap:9
+    row: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        gap: 9
     },
 
     // 
@@ -32,13 +32,13 @@ export const $ = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center'
     },
-    h1:{
+    h1: {
         fontSize: fontSize(50),
         fontWeight: 'bold',
-        color:'#4DE0D9'
+        color: '#4DE0D9'
     },
 
-    muted:{
+    muted: {
         color: '#A6A3B8'
     }
 
