@@ -15,14 +15,14 @@ This assignment received during previous interview as `pre-interview assignment`
 ## Screenshots
 
 <div style="display:flex; gap:1rem; overflow:scroll;">
-<img style="max-width:150px;" src="./screenshots/Screenshot-signin.jpg"/>
-<img  style="max-width:150px;" src="./screenshots/Screenshot-signup.jpg"/>
-<img  style="max-width:150px;" src="./screenshots/Screenshot-home.jpg"/>
-<img  style="max-width:150px;" src="./screenshots/Screenshot-bitcoin-details.jpg"/>
-<img  style="max-width:150px;" src="./screenshots/Screenshot-market-trends.jpg"/>
-<img  style="max-width:150px;" src="./screenshots/Screenshot-portfolio.jpg"/>
-<img  style="max-width:150px;" src="./screenshots/Screenshot-notifications.jpg"/>
-<img  style="max-width:150px;" src="./screenshots/Screenshot-settings.jpg"/>
+<img width="150px" src="./screenshots/Screenshot-signin.jpg"/>
+<img width="150px" src="./screenshots/Screenshot-signup.jpg"/>
+<img width="150px" src="./screenshots/Screenshot-home.jpg"/>
+<img width="150px" src="./screenshots/Screenshot-bitcoin-details.jpg"/>
+<img width="150px" src="./screenshots/Screenshot-market-trends.jpg"/>
+<img width="150px" src="./screenshots/Screenshot-portfolio.jpg"/>
+<img width="150px" src="./screenshots/Screenshot-notifications.jpg"/>
+<img width="150px" src="./screenshots/Screenshot-settings.jpg"/>
 </div>
 
 ## 🚀 How to use
