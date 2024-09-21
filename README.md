@@ -2,7 +2,7 @@
 
 This assignment received during previous interview as `pre-interview assignment`.
 
-> ### [Download APK file](https://drive.google.com/uc?export=download&id=1tcSshxq-e6I93diOn7eD85F4sxtSj28S)
+> [Download APK file - link 1](https://github.com/theboyofdream/bitex/releases/download/v1/BitEx.apk) <br> [Download APK file - link 2](https://drive.google.com/uc?export=download&id=1tcSshxq-e6I93diOn7eD85F4sxtSj28S)
 
 ## Stack used
 
